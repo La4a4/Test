@@ -2,11 +2,20 @@
 <html>
 <head>
 <style>
+
+    .prevent-select {
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
 	body {background-color: #ffd4e5;}
+
 	div {
 		  width:845px;
   		margin:auto;
     	}
+
 	h1 {
   	font-family: verdana;
   	font-size: 500%;
@@ -23,8 +32,8 @@
 </head>
 <body>
 	<div align="center">
-		<h1>Allo skoskooooooo</h1>
-		<p>Kben nog bezig, je moet wachten tot 7 augustus :)</p>
+		<h1 class="prevent-select">Allo skoskooooooo</h1>
+		<p class="prevent-select">Kben nog bezig, je moet wachten tot 7 augustus :)</p>
 		</br>
         </br>
         </br>
